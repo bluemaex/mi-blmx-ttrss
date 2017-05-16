@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd /opt/tt-rss/www && git pull --depth=50 --branch=master
+cd /opt/tt-rss/feediron && git pull
+cd /opt/tt-rss/feedly_theme && git pull
+
+chown -R www:www /opt/tt-rss/www/cache
+chown -R www:www /opt/tt-rss/www/feed-icons
+chown -R www:www /opt/tt-rss/www/lock
+
+echo "repositories updated. You may need to check if config.php has changed."

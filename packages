@@ -1,0 +1,11 @@
+git-base
+nginx
+php71-fpm
+php71-mysqli 
+php71-gd
+php71-curl 
+php71-posix
+php71-mbstring
+php71-json 
+php71-iconv
+php71-pcntl

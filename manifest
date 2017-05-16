@@ -1,0 +1,8 @@
+name="blmx-ttrss"
+organization="blmx"
+brand="Instance"
+version="17.1.1"
+description="TT-RSS Image"
+homepage="https://github.com/bluemaex/mi-blmx-ttrss"
+users="root admin"
+base="280debdb-dd05-4628-bf80-d16c84fb68b2"
